@@ -7,7 +7,7 @@ The `api` is built with Flask and follows an MVC structure. Below is the directo
 
 ### Directory Structure
 - **Models**: Represent the database schemas and handle database-related logic. Located in the `app/models/` directory.
-- **Views**: Define routes and handle HTTP requests and responses. Templates in the `templates/` directory are used for rendering HTML. Located in the `app/views/` directory.
+- **Routes**: Define routes and handle HTTP requests and responses. Located in the `app/routes/` directory.
 - **Controllers**: Contain business logic and manage interactions between models and views. Located in the `app/controllers/` directory.
 - **Static Files**: Includes assets like CSS, JavaScript, and images. These are located in the `static/` directory.
 - **App Factory**: The `__init__.py` file in the `app/` directory initializes the Flask application and its extensions (e.g., SQLAlchemy).
@@ -43,7 +43,7 @@ Follow these steps to set up and run the project locally:
 From the `frontend` directory, start the API server:
 
 ```bash
-$ npm start-api
+$ npm run start-api
 ```
 
 ## 4. Run the Frontend Server
